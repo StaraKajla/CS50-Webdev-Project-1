@@ -11,38 +11,45 @@
     </head>
 
     <body>
+        <div class="main">
 
-        <div class="nav-container">
-            <ul class="nav-bar">
-                <li class="nav-bar-item">
-                    <img src="static/Screenshot_1-removebg-preview.png" id="ico">
-                </li>
-                <li class="nav-bar-item">
-                    <a class="nav-search" href="./img-search.html">Image search</a>
-                </li>
-                <li class="nav-bar-item" >
-                    <a class="nav-search" href="./advanced-search.html">Advanced search</a>
-                </li>
-            </ul>
-        </div>
+            <div class="nav-container">
+                <div class="nav-bar">
+                    <div class="nav-item">
+                        <a class="nav-item" href="./img-search.html">Image search</a>
+                        <a class="nav-item" href="./advanced-search.html">Advanced search</a>
+                        <img class="nav-item" src="static/Screenshot_1-removebg-preview.png" id="ico">    
+                    </div>
+                </div>
 
-        <div class="container">
-            <img class="logo" src="static/googlelogo_color_160x56dp.png" alt="Google">
-        </div>
+            </div>
 
-        <div class="container">            
+            <div class="main-body">
+                <div class="logo-display">
+                    <img class="logo" src="static/googlelogo_color_160x56dp.png" alt="Google">  
+                </div>                               
+            </div>
+
+            <div class="search-container">
                 <form action="https://www.google.com/search" method="get">
-                    <input class="search-bar mb-5" type="search" autofocus autocomplete="off" name="q">
-                    <div class="mb-5">
-                        <button class="btn" type="submit">
-                            Google search
-                        </button>
-                        <button class="btn" type="submit" formaction="https://www.google.com/doodles">
-                            Feeling lucky?
-                        </button>
-                    </div>                      
+                    <div style="display:block;">
+                        <div class="search-outline">
+                            <div class="search">
+                                <div class="input-control">
+                                    <div class="A1"></div>
+                                    <input class="search-bar" id="A1" type="search" autofocus autocomplete="off" name="q">
+                                    <div class="sb-1">
+                                        <button class="btn" type="submit">Google search</button>
+                                        <button class="btn" type="submit" formaction="https://www.google.com/doodles">Feeling lucky?</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                        
                 </form>
-        </div>            
+            </div>
+
+        </div>
 
     </body>
 

@@ -15,21 +15,29 @@
         <div class="main">
 
             <div class="nav-container">
-                <div class="nav-bar">
+                <div><img class="logo adv" src="static/googlelogo_color_160x56dp.png" alt="Google"></div>
+                <div class="nav-bar">                    
                     <div class="nav-item">
-                        <a class="" href="./index.html">Back to search</a>
+                        <a href="./index.html">Back to search</a>
                     </div>
                 </div>
-
             </div>
 
-            <div class="main-body">
-                <div class="logo-display">
-                    <img class="logo" src="static/googlelogo_color_160x56dp.png" alt="Google">  
-                </div>                               
+            <div class="adv-bar">Advaned search</div>
+            <div class="adv-search">
+                <form action="/search" id="adv-search" method="GET" name="f">
+                    <button></button>
+                </form>
             </div>
 
         </div>
-    </body>
 
+
+    </body>
+    <!--
+        as_q: all words,
+        as_epq: exact,
+        as_oq: any,
+        as_eq: none of these
+    -->
 </html>

@@ -77,6 +77,24 @@ body{
     aspect-ratio: auto 272 / 92;
 }
 
+.adv{
+    object-position: left;
+    height: 28px;
+    margin-left: 10%;
+}
+
+.adv-bar{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
 .search-container{
     padding: 20px;
     max-height: 160px;
@@ -127,9 +145,23 @@ body{
     font-size: 16px;
 }
 
+.adv-search{
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
 .sb-1{
     margin-top: 6%;
     margin-left: 26.5%;
+}
+
+#sb-img{
+    margin-left: 40%;
 }
 
 #A1{
